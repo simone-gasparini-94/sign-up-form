@@ -104,6 +104,20 @@ p {
     top: 0;
 }
 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .content-container {
+        width: 100%;
+    }
+}
+
 .content-container {
     flex: 1;
     display: flex;
