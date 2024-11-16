@@ -47,7 +47,6 @@ select:focus {
     border-bottom: 1px solid hsl(0, 0%, 12%);
 }
 
-
 input {
     font-size: 1.4rem;
     height: 2rem;
@@ -56,7 +55,6 @@ input {
     border: none;
     border-bottom: 1px solid hsl(0, 0%, 40%);
     color: hsl(0, 0%, 12%);
-
 }
 
 input::placeholder {
@@ -73,11 +71,13 @@ input:focus::placeholder {
     opacity: 0;
 }
 
-input:-webkit-autofill {
+input:-webkit-autofill,
+select:-webkit-autofill, 
+textarea:-webkit-autofill {
     background-color: hsl(0, 0%, 98%) !important;
     -webkit-box-shadow: 0 0 0 1000px hsl(0, 0%, 98%) inset !important;
     box-shadow: 0 0 0 1000px hsl(0, 0%, 98%) inset !important;
-    -webkit-text-fill-color: #000 !important;
+    -webkit-text-fill-color: hsl(0, 0%, 12%) !important;
     background-clip: content-box !important;
   }
 
