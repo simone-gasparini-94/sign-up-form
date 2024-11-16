@@ -79,7 +79,7 @@ textarea:-webkit-autofill {
     box-shadow: 0 0 0 1000px hsl(0, 0%, 98%) inset !important;
     -webkit-text-fill-color: hsl(0, 0%, 12%) !important;
     background-clip: content-box !important;
-  }
+}
 
 label {
     font-size: 0.9rem;
