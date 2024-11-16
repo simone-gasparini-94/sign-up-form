@@ -132,7 +132,7 @@ p {
 
 .main-button {
     background-color: hsl(0, 0%, 12%);
-    border: 1px solid hsl(0, 0%, 98%);
+    border: none;
     color: hsl(0, 0%, 98%);
     border-radius: 2px;
     cursor: pointer;
@@ -150,7 +150,6 @@ p {
 
 .main-button:hover {
     background-color: hsl(0, 0%, 20%);
-    border: 1px solid hsl(0, 0%, 98%);
     color: hsl(0, 0%, 98%);
 }
 
