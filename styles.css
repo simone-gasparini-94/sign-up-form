@@ -96,7 +96,7 @@ p {
 }
 
 .image {
-    background-image:url("background.avif");
+    background-image:url("assets/background.avif");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -160,6 +160,7 @@ p {
 .text {
     color: hsl(0, 0%, 40%);;
 }
+
 @media (max-width: 1024px) {
     .container {
         display: grid;
