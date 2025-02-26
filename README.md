@@ -1,2 +1,3 @@
 # sign-up-form
-creating a sign up form for TOP
+
+A sign up form built for learning how to style forms.
